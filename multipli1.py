@@ -1,5 +1,7 @@
 # -*-coding:Latin-1 -*
 
+import os
+
 nb_u = input("Tapez un nombre pour obtenir sa table de multiplication")
 nb = int(nb_u)
 MAX_u = input("Tapez le chiffre maximal pour lequel vous voulez obtenir sa table de multiplication")
@@ -12,3 +14,5 @@ def table_multiplication(nb, MAX):
         i += 1
         
 print (table_multiplication(nb,MAX))
+
+os.system("pause")
